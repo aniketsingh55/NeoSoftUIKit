@@ -16,6 +16,15 @@
 		14CF39E72DC9279D000D7BC9 /* NeoSoftUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF39E62DC9279D000D7BC9 /* NeoSoftUIKitTests.swift */; };
 		14CF39F12DC9279D000D7BC9 /* NeoSoftUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF39F02DC9279D000D7BC9 /* NeoSoftUIKitUITests.swift */; };
 		14CF39F32DC9279D000D7BC9 /* NeoSoftUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF39F22DC9279D000D7BC9 /* NeoSoftUIKitUITestsLaunchTests.swift */; };
+		14CF3A032DC92AFB000D7BC9 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A022DC92AFB000D7BC9 /* HomeModel.swift */; };
+		14CF3A052DC92B21000D7BC9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A042DC92B21000D7BC9 /* HomeViewModel.swift */; };
+		14CF3A072DC92F42000D7BC9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A062DC92F42000D7BC9 /* HomeViewController.swift */; };
+		14CF3A092DC93D1B000D7BC9 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A082DC93D1B000D7BC9 /* CarouselView.swift */; };
+		14CF3A0B2DC93D38000D7BC9 /* CarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CF3A0A2DC93D38000D7BC9 /* CarouselView.xib */; };
+		14CF3A0E2DC93E00000D7BC9 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A0C2DC93E00000D7BC9 /* CarouselCell.swift */; };
+		14CF3A0F2DC93E00000D7BC9 /* CarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CF3A0D2DC93E00000D7BC9 /* CarouselCell.xib */; };
+		14CF3A122DC93E3E000D7BC9 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A102DC93E3E000D7BC9 /* ListCell.swift */; };
+		14CF3A132DC93E3E000D7BC9 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CF3A112DC93E3E000D7BC9 /* ListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		14CF39EC2DC9279D000D7BC9 /* NeoSoftUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSoftUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CF39F02DC9279D000D7BC9 /* NeoSoftUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftUIKitUITests.swift; sourceTree = "<group>"; };
 		14CF39F22DC9279D000D7BC9 /* NeoSoftUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14CF3A022DC92AFB000D7BC9 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		14CF3A042DC92B21000D7BC9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		14CF3A062DC92F42000D7BC9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		14CF3A082DC93D1B000D7BC9 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		14CF3A0A2DC93D38000D7BC9 /* CarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselView.xib; sourceTree = "<group>"; };
+		14CF3A0C2DC93E00000D7BC9 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		14CF3A0D2DC93E00000D7BC9 /* CarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCell.xib; sourceTree = "<group>"; };
+		14CF3A102DC93E3E000D7BC9 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		14CF3A112DC93E3E000D7BC9 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +120,9 @@
 				14CF39CF2DC9279B000D7BC9 /* AppDelegate.swift */,
 				14CF39D12DC9279B000D7BC9 /* SceneDelegate.swift */,
 				14CF39D32DC9279B000D7BC9 /* ViewController.swift */,
+				14CF39FF2DC927B2000D7BC9 /* Model */,
+				14CF3A002DC927BD000D7BC9 /* ViewModel */,
+				14CF3A012DC927CE000D7BC9 /* View */,
 				14CF39D52DC9279B000D7BC9 /* Main.storyboard */,
 				14CF39D82DC9279D000D7BC9 /* Assets.xcassets */,
 				14CF39DA2DC9279D000D7BC9 /* LaunchScreen.storyboard */,
@@ -125,6 +146,36 @@
 				14CF39F22DC9279D000D7BC9 /* NeoSoftUIKitUITestsLaunchTests.swift */,
 			);
 			path = NeoSoftUIKitUITests;
+			sourceTree = "<group>";
+		};
+		14CF39FF2DC927B2000D7BC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14CF3A022DC92AFB000D7BC9 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14CF3A002DC927BD000D7BC9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14CF3A042DC92B21000D7BC9 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14CF3A012DC927CE000D7BC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14CF3A062DC92F42000D7BC9 /* HomeViewController.swift */,
+				14CF3A102DC93E3E000D7BC9 /* ListCell.swift */,
+				14CF3A112DC93E3E000D7BC9 /* ListCell.xib */,
+				14CF3A082DC93D1B000D7BC9 /* CarouselView.swift */,
+				14CF3A0A2DC93D38000D7BC9 /* CarouselView.xib */,
+				14CF3A0C2DC93E00000D7BC9 /* CarouselCell.swift */,
+				14CF3A0D2DC93E00000D7BC9 /* CarouselCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				14CF39DC2DC9279D000D7BC9 /* LaunchScreen.storyboard in Resources */,
+				14CF3A132DC93E3E000D7BC9 /* ListCell.xib in Resources */,
 				14CF39D92DC9279D000D7BC9 /* Assets.xcassets in Resources */,
+				14CF3A0F2DC93E00000D7BC9 /* CarouselCell.xib in Resources */,
+				14CF3A0B2DC93D38000D7BC9 /* CarouselView.xib in Resources */,
 				14CF39D72DC9279B000D7BC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CF3A032DC92AFB000D7BC9 /* HomeModel.swift in Sources */,
 				14CF39D42DC9279B000D7BC9 /* ViewController.swift in Sources */,
 				14CF39D02DC9279B000D7BC9 /* AppDelegate.swift in Sources */,
+				14CF3A0E2DC93E00000D7BC9 /* CarouselCell.swift in Sources */,
+				14CF3A052DC92B21000D7BC9 /* HomeViewModel.swift in Sources */,
+				14CF3A092DC93D1B000D7BC9 /* CarouselView.swift in Sources */,
+				14CF3A122DC93E3E000D7BC9 /* ListCell.swift in Sources */,
 				14CF39D22DC9279B000D7BC9 /* SceneDelegate.swift in Sources */,
+				14CF3A072DC92F42000D7BC9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

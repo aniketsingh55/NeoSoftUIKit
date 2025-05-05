@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  NeoSoftUIKit
-//
-//  Created by AdminTech02 on 05/05/25.
-//
+
 
 import UIKit
 
